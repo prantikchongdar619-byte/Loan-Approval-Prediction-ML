@@ -20,7 +20,7 @@ def load_artifacts():
 
 model, scaler = load_artifacts()
 
-# ── Preprocessing (mirrors your notebook pipeline exactly) ─────────────────────
+# ── Preprocessing ─────────────────────
 def preprocess_data(df):
     df = df.copy()
 
