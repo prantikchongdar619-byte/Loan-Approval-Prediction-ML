@@ -87,21 +87,3 @@ Where:
 - **EAD** (Exposure at Default) = loan amount
 
 At threshold = 0.5, the approved portfolio achieves an **86% approval rate** with estimated **profit of ₹305 Cr** (assuming LGD = 0.6).
-
-## Setup & Usage
-
-```bash
-git clone https://github.com/prantikchongdar619-byte/Loan-Approval-Prediction-ML.git
-cd Loan-Approval-Prediction-ML
-pip install -r requirements.txt
-jupyter notebook "Loan Approval.ipynb"
-```
-
-Place `train.csv` and `test.csv` in the project root before running.
-
-## Future Work
-
-- Hyperparameter tuning with cross-validation (currently trained on a single 80/20 split)
-- SHAP-based explainability dashboard
-- Deployment as a REST API (FastAPI) with a Streamlit frontend
-- Integrate dynamic LGD estimation per loan category
